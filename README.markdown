@@ -1,35 +1,16 @@
-Textmate with alternative SASS Syntax
-=======================================
+# SASS bundle for TextMate & Sublime Text 2
 
-For those of you how prefer the alternative Sass Synatx:
-
-    .pagination
-      margin: 10px 0 10px 0
-      text-align: center
-      font-size: 14px
-      span
-        color: #000
-      span.disabled
-        display: none
-      a 
-        margin: 0 1px 0 1px
-
-Regards, Kalle
+SASS suport for TextMate. Includes proper **indentation rules!** :heart:
 
 
-INSTALLATION
-------------------------------------
+# TextMate Installation
 
-cd ~/Library/"Application Support"/TextMate/Bundles/
+    cd ~/Library/Application\ Support/Avian/Bundles/
+    git clone git://github.com/jembezmamy/sass-tmbundle.git Sass.tmbundle
 
-if that directory wasn't found, you'll need to create it, then:
-
-git clone git://github.com/fluxsaas/sass-textmate-bundle.git "Ruby-Saas-Alternative-Syntax.tmbundle"
+Then restart TextMate.
 
 
-THANKS
-------------------------------------
+# Authors
 
-this bundle is based on the excellent css bundle from minimal design http://minimaldesign.net/downloads/tools/textmate-css-bundle use both and become an efficient designer!
-
-Robert Gaal for his support http://github.com/robertgaal
+This is a fork of https://github.com/Timch/sass-tmbundle.
